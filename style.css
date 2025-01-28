@@ -97,9 +97,10 @@ ul{
     font-family: sans-serif;
 
 }
-.banner-left-btn{
-    padding: 40px 0px 0px 0px;
 
+.banner-head1-logo{
+/* color: #ffffff; */
+background-color: #ffffff;
 }
 .banner-head1{
     font-size: 20px;
@@ -117,6 +118,11 @@ ul{
     color: #ffffff;
     padding: 40px 0px 0px 0px;
     font-size: 20px;
+}
+
+.banner-left-btn{
+    padding: 40px 0px 0px 0px;
+
 }
 .banner-right{
     width: 50%;
