@@ -493,6 +493,28 @@ background-color: #ffffff;
 }
 
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<sec7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.animation{
+    background-color: aqua;
+    display: flex;
+    /* gap: 10px; */
+
+}
+.animation-right1{
+    width: 132px;
+    height: 130px;
+    background-color: #f3f0f0;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    overflow: hidden;
+   margin: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.animation-right1-img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
