@@ -30,6 +30,12 @@
  .navbar{
     background-color: #000;
     background-color: #d80808;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+   
 
     /* display: flex;
     width: 100%;
@@ -91,7 +97,32 @@ ul{
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<banner>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
  .banner{
     display: flex;
+    /* position: absolute; */
+    /* background-image: url(2f38ae1aa0bcbb336cf22ca58468fdfdbbcc815a_high.webp); */
+    /* background-image: url(4db1b0b4e8350785b9f3a330133bc67aa6001f90_low.webp); */
+    /* background-image: url(74ff69f507a0e25a596e92429129f654_low.webp); */
+    /* background-image: url(a8e5544f42e0cb797b3c1f32b660dafe_low.webp); */
+    background-image: url(b28b2dc3b11f050eee8713594baf0ac13403489c_high.webp);
+
+    /* background-image: url(c6388b11d89b69bb97de77196665797d_low.webp); */
+    /* background-image: url(e52859ced238e7424c4aa5f1c8eef923_low.webp); */
+    /* background-image: url(f7dd891b1969b5af34a5c7e63a10c7f2ec003391_low.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+
 }
+/* .banner-img{
+    width: 150vw;
+    height: 100vh;
+    position: relative;
+    z-index: -5;
+
+} */
+
+
 .banner-left{
     width: 50%;
     height: 120vh;
@@ -129,7 +160,7 @@ background-color: #ffffff;
 .banner-right{
     width: 50%;
     /* height: 140vh; */
-    background-color: #000;
+    /* background-color: #000; */
 }
 .banner-right-image1{
     width: 45vw;
@@ -143,6 +174,9 @@ background-color: #ffffff;
    
     z-index: 5;
 
+}
+.banner-right-image1{
+    object-fit: contain;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<sec1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -230,3 +264,55 @@ background-color: #ffb936;
 }
 
  */
+
+
+
+
+
+
+.awai{
+    background-color: aqua;
+    width: 100%;
+    height: 50vh;
+}
+.sec7{
+display: flex;
+justify-content: space-evenly;
+background-color: #000000;
+}
+.sec71{
+    height: 173px;
+    object-fit: cover;
+}
+.card-img-top{
+    
+}
+
+
+
+
+.sec8{
+    display: flex;
+    /* margin-top: 100px; */
+
+}
+.sec8-img1{
+width: 59.5%;
+height: 70vh;
+}
+.sec8-img2{
+    width: 40%;
+    height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
