@@ -1,0 +1,65 @@
+*{
+ 
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Navbar>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.navbar{
+    background-color: #000;
+    background-color: #d80808;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    gap: 20px;
+ }
+.nav2-left-menu {
+color: rgb(255, 255, 255);
+} 
+.nav2-left-menu:hover {
+color: rgb(255, 255, 255);
+}
+
+.orange-btn{
+
+background-color: #ec3d08;
+width: 222px ;
+height: 52px;
+border: none;
+border-radius: 0px;
+color: white;
+
+}
+.orange-btn:hover{
+cursor: pointer;
+background-color: #ffb936;
+} 
+.yellow-btn{
+background-color: #ffb936;
+width: 150px ;
+height: 40px;
+border: none;
+border-radius: 0px;
+color: white;
+}
+.yellow-btn:hover{
+cursor: pointer;
+background-color: #ec3d08;
+
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    background-color: rgb(68, 0, 255);
+  }  
