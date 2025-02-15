@@ -643,16 +643,18 @@ input:checked + label .txt {
   transform: translateY(0) !important;
 }
 .card[for="r1"] {
-  background-image: url();
+  /* background-image: url(./images/chinese\ 2\ download\ \(4\).jpeg); */
+  background-image: url(./images/chinese\ 3\ download\ \(4\).jpeg);
+
 }
 .card[for="r2"] {
-  background-image: url();
+  background-image: url(./images/sea\ food\ 3images\ \(3\).jpeg);
 }
 .card[for="r3"] {
-  background-image: url();
+  background-image: url(./images/sea\ food\ 10\ images\ \(3\).jpeg);
 }
 .card[for="r4"] {
-  background-image: url();
+  background-image: url(./images/sea\ food\ 13\ images\ \(3\).jpeg);
 }
 
 
