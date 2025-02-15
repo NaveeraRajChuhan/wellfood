@@ -133,7 +133,7 @@ ul{
 
 .banner-left {
   width: 50%;
-  height: 120vh;
+  /* height: 120vh; */
   /* background-color: #000; */
   padding: 140px 0px 10px 30px;
 }
@@ -550,24 +550,7 @@ flex-wrap: wrap;
 
 
 
-        .testimonial-stars {
-            color: var(--star-color);
-          }
-          .testimonial-card {
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 20px !important;
-            margin: 10px !important;
-          }
-          .product-info {
-            border-top: 1px solid #ddd;
-          }
-          .brand-box {
-            border: 1px solid #ddd;
-            margin-block: 12vh !important;
-          }
-          .brand-box .col-md-2 {
-            border-right: 1px solid #ddd;}
+     
 
 
 
@@ -594,7 +577,7 @@ body {
   display: flex;
   justify-content: start;
 }
-.card {
+.carocel-card {
   width: 88px;
   border-radius: 2rem;
   background-size: cover;
@@ -642,18 +625,18 @@ input:checked + label .txt {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
-.card[for="r1"] {
+.carocel-card[for="r1"] {
   /* background-image: url(./images/chinese\ 2\ download\ \(4\).jpeg); */
   background-image: url(./images/chinese\ 3\ download\ \(4\).jpeg);
 
 }
-.card[for="r2"] {
+.carocel-card[for="r2"] {
   background-image: url(./images/sea\ food\ 3images\ \(3\).jpeg);
 }
-.card[for="r3"] {
-  background-image: url(./images/sea\ food\ 10\ images\ \(3\).jpeg);
+.carocel-card[for="r3"] {
+  background-image: url(./images/desert\ 1\ 210129.jpg);
 }
-.card[for="r4"] {
+.carocel-card[for="r4"] {
   background-image: url(./images/sea\ food\ 13\ images\ \(3\).jpeg);
 }
 
@@ -665,6 +648,49 @@ input:checked + label .txt {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-stars {
+    color: var(--star-color);
+  }
+  .testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px !important;
+    margin: 10px !important;
+  }
+  .product-info {
+    border-top: 1px solid #ddd;
+  }
+  .brand-box {
+    border: 1px solid #ddd;
+    margin-block: 12vh !important;
+  }
+  .brand-box .col-md-2 {
+    border-right: 1px solid #ddd;}
+.box3-img{
+    height: 110px;
+}
 
 
 
@@ -1083,6 +1109,9 @@ footer{
 
 
 @media only screen and (max-width: 320px) {
+    /* .orange-btn{
+        width: 140px;
+    } */
     .banner-head2{
         font-size: 50px;
         color: #ffffff;
@@ -1098,9 +1127,24 @@ footer{
        */
 
     }
-    .banner-right-image1{
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right-image2{
 display: none;
     }
+    .sec7-right-image1{
+        display: none;
+    }
+    .sec7-right-image2{
+        display: none;
+    }
+    .sec7-head2{
+        font-size: 50px;
+    }
+.sec7-para{
+    display: none;
+}
    
 }
 @media only screen and (max-width: 670px) {}
