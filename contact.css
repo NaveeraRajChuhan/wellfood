@@ -151,6 +151,30 @@ background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
 width: 100%;
+
+
+
+
+
+
+  background-color: rgb(0, 0, 0);
+  /* background-image: url(./image/bg\ 8\ wp2399220.webp); */
+  background-image: url(./images/desert\ 6\ pngtree-dessert-food-realistic-picture-image_2446283.jpg);
+background-repeat: no-repeat;
+  object-fit: cover;
+ /*  width: 100%;
+  height: 700px;
+ padding:100px 30px 30px 30px; */
+ margin-top: 70px;
+ margin-bottom: 50px;
+ /* flex-wrap: wrap; */
+  
+padding-left: 50px;
+
+
+
+
+
  
  }
  .sec1-left{
@@ -420,6 +444,12 @@ gap: 20px;
        }
      }
    }
+
+
+   .circ{
+    aspect-ratio: 1;
+  }
+
    .hr {
      height: 1px;
      width: 80vw;
@@ -570,12 +600,15 @@ gap: 20px;
 }
 
 #email{
-
-}
-
-
-
-
+  display: none;
+ 
+ }
+ .circle{
+   display: none;
+ }
+/* .circ{
+  aspect-ratio: 1;
+} */
  }
 
 
@@ -631,7 +664,10 @@ gap: 20px;
 
 } */
 #email{
-  width: 256px;
+ display: none;
 
+}
+.circle{
+  display: none;
 }
  }

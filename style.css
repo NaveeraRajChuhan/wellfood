@@ -1429,6 +1429,26 @@ padding: 80px 200px 100px 250px;
   font-size: 50px;
   padding: 80px 200px 80px 180px;
 }
+
+
+.carocel1{
+  width: 450px;
+}
+.carocel2{
+  width: 450px;
+}
+.carocel3{
+  width: 450px;
+}
+.carocel4{
+  width: 450px;
+}
+.sec{
+  height: 300px;
+}
+
+
+
 }
 
 
@@ -1460,8 +1480,21 @@ height:70vh ;
 }
 
 
-
-
+.carocel1{
+  width: 350px;
+}
+.carocel2{
+  width: 350px;
+}
+.carocel3{
+  width: 350px;
+}
+.carocel4{
+  width: 350px;
+}
+.sec{
+  height: 300px;
+}
 
 }
 
@@ -1524,10 +1557,36 @@ width: 200px;
   width: 200px;
   height: 200px;
 }
+/* .carocel{
+  display: none;
+} */
+.carocel1{
+  width: 280px;
+}
+.carocel2{
+  width: 280px;
+}
+.carocel3{
+  width: 280px;
+}
+.carocel4{
+  width: 280px;
+}
+.sec{
+  height: 200px;
+}
 
 
 }
 
+
+
+
+@media only screen and (max-width: 580px) {
+.carocel{
+  display: none;
+}
+}
 /* @media only screen and (max-width: 330px){
 
 } */
@@ -1578,6 +1637,11 @@ width: 200px;
     .banner-right-image2{
 display: none;
     }
+
+.sec5{
+  padding: 0px;
+}
+
     .sec6{
       padding: 0px 0px 200px 0px;
 
@@ -1607,6 +1671,14 @@ display: none;
   width: 200px;
   height: 200px;
 }
+
+.sec6-right3-head{
+  margin-top: 120px;
+  padding: 0px 0px 0px 20px;
+}
+.sec6-right3-para {
+  padding: 10px 50px 0px 20px;}
+
 .r1{
   width:30px ;
 
@@ -1624,6 +1696,9 @@ display: none;
 .r4{
   width:30px ;
 
+}
+.carocel{
+  display: none;
 }
 .carocel-card{
   height: 300px;
