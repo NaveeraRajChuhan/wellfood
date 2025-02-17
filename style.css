@@ -267,10 +267,20 @@ background-color: #ffb936;
 
  */
 
-.awai {
+.mid-gap {
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 50vh;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+.mid-gap-head1{
+font-size: 55px;
+padding: 150px 200px 80px 300px;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+font-family: cursive;
+/* justify-content: space-around;
+align-items: center; */
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<sec5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -412,6 +422,21 @@ background-color: #ffb936;
   height: 100%;
   object-fit: cover;
 }
+
+.sec6-right3{
+
+}
+.sec6-right3-head{
+  padding: 0px 0px 0px 50px;
+  margin-top: 100px;
+}
+.sec6-right3-para{
+  padding: 10px 50px 0px 50px;
+font-size: 26px;
+}
+
+
+
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<sec7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
 
@@ -1315,6 +1340,10 @@ footer{
 
 
 @media only screen and (max-width: 1000px) {
+.mid-gap-head1{
+  font-size: 50px;
+  padding: 80px 200px 80px 200px;
+}
 
 }
 
@@ -1324,16 +1353,29 @@ footer{
   .foot3{
     padding-left: 20vh;
 }
+.mid-gap-head1{
+
+font-size: 55px;
+padding: 80px 200px 100px 250px;
+}
 }
 
 @media only screen and (max-width: 975px){
   .foot3{
     padding-left: 8vh;
 }
+.mid-gap-head1{
+  font-size: 50px;
+  padding: 80px 200px 80px 180px;
+}
 }
 
 
 @media only screen and (max-width: 887px) {
+  .mid-gap-head1{
+    font-size: 50px;
+    padding: 60px 100px 50px 160px;
+  }
 .banner-head2{
     font-size: 50px;
     color: #ffffff;
@@ -1365,6 +1407,10 @@ height:70vh ;
 
 
 @media only screen and (max-width: 670px) {
+  .mid-gap-head1{
+    font-size: 27px;
+    padding: 130px 100px 50px 10px;
+  }
     .banner-head2{
         font-size: 40px;
         color: #ffffff;
@@ -1443,6 +1489,13 @@ width: 200px;
     /* .orange-btn{
         width: 140px;
     } */
+
+    .mid-gap-head1{
+      font-size: 20px;
+      padding: 180px 10px 20px 10px;
+    }
+
+
     .banner-head2{
         font-size: 50px;
         color: #ffffff;

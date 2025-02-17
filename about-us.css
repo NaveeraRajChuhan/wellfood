@@ -5,7 +5,7 @@
 }
 :root {
     --bg-secondary-color: #ebebeb;
-    --yellow: #fcffb2;
+    --yellow: #ff0000;
     --icon-hover: #dc302f;
     --star-color: #ea7952;
   }
@@ -62,6 +62,101 @@
 
 
 
+  .main{
+    background-color: rgb(231, 131, 186);
+    background-image: url(./images/desert\ 16\ 1080456.jpg);
+    background-image: url(./images/des);
+
+background-repeat: no-repeat;
+    object-fit: cover;
+   margin-top: 70px;
+   margin-bottom: 50px;
+ 
+}
+
+.sec1{
+   
+ display: flex;
+ flex-wrap: wrap;
+ 
+width: 100%;
+/* background-image: url(./images/desert\ 14\ sladost-desert-klubnika-v-5486.webp); */
+
+
+}
+.sec1-left{
+
+width: 640px;
+padding: 100px 50px 180px 200px;
+}
+.sec1-left-head{
+ color: white;
+ font-size: 36px;
+}
+.sec1-left-para{
+margin-top: 30px;
+
+ color: white;
+
+}
+.sec1-left-btn{
+ background-color: transparent;
+ border: 3px solid white;
+ color: white;
+width:200px ;
+height:50px ;
+margin-top: 30px;
+}
+.sec1-left-btn:hover{
+cursor: pointer;
+background-color: white;
+border: 3px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+
+
+}
+/* .sec1-right{
+
+width: 650px;
+ padding: 100px 0px 180px 50px;
+
+}
+.sec1-right-top{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.placeholder1{
+ width:300px ;
+ padding: 10px;
+ height:50px ;
+}
+.placeholder2{
+ width:300px ;
+ padding: 10px;
+
+ height:50px ;
+}
+.placeholder3{
+ margin-top: 30px;
+ width:600px ;
+ padding: 10px;
+
+ height:50px ;
+}
+
+.placeholder4{
+ margin-top: 30px;
+ padding: 10px;
+
+ width:600px ;
+ height:80px ;
+}
+.sec1-right-btn{
+ margin-top: 30px;
+}
+ */
+
 
 
 
@@ -101,6 +196,7 @@
     display: inline-block;
     white-space: nowrap;
     animation: scroll 20s linear infinite;
+    color: white;
   }
   
   @keyframes scroll {
