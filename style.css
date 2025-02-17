@@ -7,7 +7,17 @@
     --grey-txt: #999999;
     --theme-black: #1b1b1b;
     --theme-grey: #222222;
-  }
+    --bg-secondary-color: #ebebeb;
+    --yellow: #ff0000;
+    --icon-hover: #dc302f;
+    --star-color: #ea7952;
+  /* }
+  :root {
+    --bg-secondary-color: #ebebeb;
+    --yellow: #ff0000;
+    --icon-hover: #dc302f;
+    --star-color: #ea7952;
+  } */
 /* >>>>>>>>>>>>>>>>>>>>>>...........navbar1..........<<<<<<<<<<<<<<<<<<<<<< */
 /* .navbar1{
     background-color: blue;
@@ -595,6 +605,57 @@ flex-wrap: wrap;
 body {
   background-color: #eeeeea;
 } */
+
+
+
+
+
+
+
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+  color: white;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ------------MARQUEE ENDS HERE----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carocel {
   display: flex;
   align-items: center;
