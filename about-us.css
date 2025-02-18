@@ -415,6 +415,7 @@ font-size: 20px;
 
 
   .marquee-container {
+    margin-top: 30px;
     width: 100%;
     overflow: hidden;
     position: relative;
